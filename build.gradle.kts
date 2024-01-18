@@ -4,6 +4,8 @@ plugins {
     kotlin("multiplatform") version "1.9.21"
 }
 
+
+
 repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/repositories/snapshots")
@@ -12,7 +14,7 @@ repositories {
 kotlin {
     // kotlin multiplatform (jvm + js) setup:
     jvm {
-        jvmToolchain(11)
+        jvmToolchain(17)
     }
     js(IR) {
         binaries.executable()

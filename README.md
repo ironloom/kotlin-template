@@ -1,5 +1,7 @@
 # kool-basic-template
 
+> **Note:** if `./gradlew run` raises a toolchain error, check the jdk version and update the `build.gradle.kts` script accordingly!
+
 Template project for creating a new multi-platform code-only application with kool.
 The project contains the minimum set of dependencies and launcher code to get you started.
 
